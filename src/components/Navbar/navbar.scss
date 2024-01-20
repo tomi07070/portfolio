@@ -1,0 +1,45 @@
+#home,
+#proyects,
+#skills,
+#contact {
+  position: relative;
+  text-decoration: none; /* Añadido para quitar la subrayado predeterminado */
+
+  &:after {
+    content: '';
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 15px;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+  }
+
+  &:hover:after {
+    opacity: 1;
+  }
+}
+
+#home:hover:after {
+  content: 'Home';
+  right: 10px;
+}
+
+#proyects:hover:after {
+  content: 'Projects';
+}
+
+#skills:hover:after {
+  content: 'Skills';
+  right: 10px;
+}
+
+#contact:hover:after {
+  content: 'Contact';
+}
+  
+
+  
+  

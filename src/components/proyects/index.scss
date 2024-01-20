@@ -1,0 +1,49 @@
+.imagen {
+    &:hover + .boton {
+      opacity: 1;
+    }
+  }
+
+  .boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  @media (max-width: 1024px) {
+    .boton {
+      &.boton1 {
+        left: 100px;
+      }
+  
+      &.boton2 {
+        left: 680px;
+      }
+  
+      &.boton3 {
+        left: 1000px;
+      }
+  
+      &.boton4 {
+        left: 1400px;
+      }
+      &.boton5{
+          left: 100px;
+      }
+      &.boton6{
+        left: 100px;
+
+      }
+      &.boton7{
+        left: 100px;
+
+      }
+      &.boton8{
+        left: 100px;
+
+      }
+    }
+  }
