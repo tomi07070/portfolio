@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import  {AnimatedLetters}  from '../animatedLetters/AnimatedLetters'
-import './index.scss'
+import './contact.scss'
 import { MapView } from './MapView'
 
 export const Contact = () => {
@@ -39,17 +39,17 @@ export const Contact = () => {
 
   return (
     <>
-      <section className='absolute top-4 left-[200px]'>
+      <section className='section-c'>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1 className='text-white text-[30px]'>
+          <h1 className=' h1-c'>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
-          <p className='text-gray-400 w-[40%]'>
+          <p className='p-c'>
             I am interested in freelance opportunities - especially on ambitious
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
@@ -91,11 +91,11 @@ export const Contact = () => {
           </div>
         </div>      
       </div>
-      <div className='bg-black w-[210px] absolute z-10 left-[1000px] top-[40px]'>
+      <div className=' div-c'>
         <ul>
-          <li className='text-white p-1'>Tomás Gandini</li>
-          <li className='text-white p-1'>Argentina, Buenos Aires</li>
-          <li className='text-white p-1'>tomasgandini11@gmail.com</li>
+          <li className=' li-c'>Tomás Gandini</li>
+          <li className=' li-c'>Argentina, Buenos Aires</li>
+          <li className=' li-c'>tomasgandini11@gmail.com</li>
         </ul>
       </div>
       <MapView></MapView>

@@ -1,0 +1,33 @@
+.map{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    width: 40%;
+    height: 600px;
+  }
+
+  @media(min-width: 2000px){
+    .map{
+      width: 60%;
+      height: 1000px;
+      left: 1200px;
+    }
+  }
+  @media(max-width: 1024px){
+    .map{
+      left: 400px;
+      height: 500px;
+    }
+  }
+  @media(max-width: 768px){
+    .map{
+      left: 300px;
+      height: 540px;
+    }
+  }
+  @media(max-width: 426px){
+    .map{
+      left: 100px;
+      top: 700px;
+    }
+  }

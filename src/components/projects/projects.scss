@@ -1,0 +1,44 @@
+.imagen {
+    &:hover + .boton {
+      opacity: 1;
+    }
+  }
+
+.section-p{
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+.div-p{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+
+}
+/* Proyects.css */
+
+.project-image {
+  width: 500px;
+  height: 344px;
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-image:hover {
+  opacity: 1;
+}
+
+@media (min-width: 2000px) {
+  .project-image {
+    width: 700px;
+    height: 610px;
+  }
+}
+@media(max-width: 1066px){
+  .div-p{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+
+ 

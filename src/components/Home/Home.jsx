@@ -51,7 +51,7 @@ export const Home = () => {
   }, [letterClass]);
 
   return (
-    <div className="container home-page">
+    <div className="home-page">
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
@@ -85,9 +85,9 @@ export const Home = () => {
         classNames="image-fade"
         unmountOnExit
       >
-        <div className=' img absolute right-60 top-20 animate-spin'>
+        <div className=' img-div'>
           <img
-            className="img  rounded-full h-[500px]"
+            className="img"
             src={image}
             alt=""
             onLoad={() => setImageLoaded(true)}
