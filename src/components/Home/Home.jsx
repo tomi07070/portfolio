@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import Loader from 'react-loaders';
 import { AnimatedLetters } from '../animatedLetters/AnimatedLetters';
-import image from './image.jpg';
+import image from './image.webp';
 import './index.scss';
 import 'react-loaders';
 import 'loaders.css/loaders.css';
