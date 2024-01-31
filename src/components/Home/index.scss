@@ -99,7 +99,7 @@
   .img-div{
     position: absolute;
     right: 15rem;
-    top: 5rem;
+    top: 7rem;
   }
   .img{
     height: 500px;
@@ -133,13 +133,29 @@
   @media(max-width: 1024px){
     .img-div{
       left: 600px;
+      top: 100px;
     }
+    .img{
+      height: 400px;
+    }
+    .home-page{
+      .text-zone{
+        top: 180px;
+    }
+  }
   }
   @media(max-width: 768px){
     .home-page{
       .text-zone{
         width: 600px;
         left: 200px;
+      }
+    }
+  }
+  @media(max-width: 476px){
+    .home-page{
+      .text-zone{
+        top: 250px;
       }
     }
   }

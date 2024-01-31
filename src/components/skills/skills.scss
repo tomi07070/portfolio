@@ -2,7 +2,7 @@
 
 .absolute-container-s {
     position: absolute;
-    top: 10px;
+    top: 150px;
     left: 200px;
   
     .heading-s {
@@ -29,7 +29,7 @@
   
   .slider-container {
     position: absolute;
-    top: 100px;
+    top: 250px;
     left: 900px;
     width: 300px;
   
@@ -88,6 +88,34 @@ p{
     }
     .absolute-container-s{
       left: 150px;
+    }
+  }
+  @media(max-width: 1024px){
+    .absolute-container-s{
+      left: 60px;
+      top: 100px;
+    }
+    .slider-container{
+      top: 200px;
+    }
+    .img-s{
+      width: 200px;
+      margin-left: 50px;
+    }
+  }
+  @media(max-width: 768px){
+    .slider-container{
+      top: 670px;
+    }
+  }
+  @media(max-width: 426px){
+    .absolute-container-s{
+      left: 30px;
+    }
+    .slider-container{
+      left: 120px;
+      top: 640px;
+      margin-bottom: 30px;
     }
   }
   

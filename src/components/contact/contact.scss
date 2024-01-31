@@ -145,9 +145,16 @@
 
 
 
-@media(min-width: 2000px){
-  .div-c{
+  @media(min-width: 1990px){
+  .text-zone {
+    position: relative;
+    left: 400px;
+    top: 200px;
+  }
+
+  .div-c {
     left: 1700px;
+    top: 200px;
     width: 300px;
   }
   .li-c{
@@ -158,10 +165,6 @@
   }
   .p-c{
     font-size: 25px;
-  }
-  .text-zone{
-    position: relative;
-    left: 400px;
   }
   .contact-form {
     input[type='text'],
@@ -178,40 +181,63 @@
     font-size: 20px;
   }
 }
+}
+@media(max-width: 1900px){
+  .text-zone{
+    margin-top: 100px;
+    left: 50px;
+  }
+  .div-c{
+    top: 100px;
+    left: 1000px;
+  }
 }  
 @media(max-width: 1024px){
   .div-c{
     left: 500px;
+    top: 50px;
+  }
+  .text-zone{
+    margin-top: 50px;
   }
 }
-@media(max-width: 768px){
+@media(max-width: 769px){
   .div-c{
     width: 200px;
     left: 300px;
   }
+  .text-zone{
+    margin-left: -100px;
+  }
+  .contact-form{
+    margin-top: 30px;
+    textarea{
+      height: 100px;
+      min-height: 100px;
+    }
+  }
+  
 }
 @media(max-width: 426px){
-  .p-c{
-    width: 400px;
-    font-size: 20px;
-  }
-  .text-zone{
-    position: relative;
-    left: 100px;
-  }
   .div-c{
-    top: 700px;
-    width: 250px;
-  }
-  .li-c{
-    font-size: 20px;
+    top: 130px;
+    left: 120px;
   }
   .contact-form {
     input[type='text'],
     input[type='email']{
-      font-size: 15px;
-      width: 1000px;
-      padding: 5px;
-    }
+      font-size: 20px;
+      width: 500px;
+      height: 70px;
+  }
+  textarea{
+    font-size: 20px;
+    height: 70px;
+  }
 }
+  .text-zone{
+    margin-top: 100px;
+    margin-left: -150px;
+  }
 }
+  

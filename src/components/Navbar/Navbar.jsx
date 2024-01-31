@@ -32,10 +32,10 @@ export const Navbar = () => {
             <li className='li-nav'><NavLink id='contact' className='navlink-nav' to={'/contact'}><i class="fa-solid fa-user"></i></NavLink></li>
           </ul>
           <div className='div-nav'>
-          <ul className='ml-3' id='ul1-n'>
-            <li className='li2-nav'><a className='a-nav' target='_blank' href ='https://www.instagram.com/'><i class="fa-brands fa-instagram"></i></a></li>
-            <li className='li2-nav'><a className='a-nav'   target='_blank' href='https://www.tiktok.com/'><i class="fa-brands fa-tiktok"></i></a></li>
-            <li className='li2-nav'><a className='a-nav' target='_blank'  href='https://www.facebook.com/'><i class="fa-brands fa-facebook-f"></i></a></li>
+          <ul  id='ul1-n'>
+            <li className='li2-nav'><a className='a-nav' target='_blank' href ='https://twitter.com/your_web_dev0'><i class="fa-brands fa-twitter"></i></a></li>
+            <li className='li2-nav'><a className='a-nav'   target='_blank' href='https://www.tiktok.com/@your_web_dev'><i class="fa-brands fa-tiktok"></i></a></li>
+            <li className='li2-nav'><a className='a-nav' target='_blank'  href='https://www.linkedin.com/in/tomas-gandini-853520296/'><i class="fa-brands fa-linkedin"></i></a></li>
             <li className='li2-nav'><a className='a-nav' target='_blank'  href='https://github.com/tomi07070'><i class="fa-brands fa-github"></i></a></li>
         </ul>
         </div>
