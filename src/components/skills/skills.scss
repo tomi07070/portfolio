@@ -38,13 +38,18 @@
     .slick-dots {
       display: none;
     }
-  
+    .slick-arrow{
+      display: none;
+    }
     .img-s {
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
       // Add additional styles as needed
     }
+  }
+  .slick-arrow .slick-prev{
+    visibility: hidden;
   }
   
 p{
@@ -111,11 +116,27 @@ p{
   @media(max-width: 426px){
     .absolute-container-s{
       left: 30px;
+      width: 300px;
     }
     .slider-container{
-      left: 120px;
-      top: 640px;
+      left: 20px;
+      top: 840px;
       margin-bottom: 30px;
+    }
+    .description-s p{
+        width: 270px;
+        font-size: 20px;
+    }
+    .absolute-container-s{
+      .description-s{
+        width: 270px;
+      }
+    }
+    .slider-container{
+      width: 300px;
+    }
+    .img-s{
+      width: 200px;
     }
   }
   

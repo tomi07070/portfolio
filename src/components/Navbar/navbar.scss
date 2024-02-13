@@ -70,7 +70,7 @@
   font-size: 1.25rem;
   padding-left: 1rem;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
@@ -78,7 +78,7 @@
   padding: 0.5rem;
   margin-left: 0.5rem;
   font-size: 1.25rem;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .a-nav{
@@ -191,7 +191,7 @@
 }
 @media(max-width: 426px){
   .nav{
-    height: 1050px;
+    height: 650px;
   }
   .header{
     height: 70px;
@@ -200,28 +200,50 @@
     font-size: 40px;
   }
   #nav{
-    height: 1058px;
+    height: 690px;
   }
   .li-nav{
-    font-size: 30px;
-    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 5px;
   }
   .li2-nav i{
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 20px;
+    padding-top: 5px;
   }
   #ul1-n{
-    margin-top: 400px;
+    margin-top: 300px;
   }
 }
 @media(max-width: 376px){
   .nav{
     height: 1180px;
   }
+  .li-nav{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .li2-nav i{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  #ul1-n{
+    margin-top: 320px;
+  }
 }
 @media(max-width: 321px){
   .nav{
     height: 1390px;
+  }
+  .li-nav{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .li2-nav i{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  #ul1-n{
+    margin-top: 320px;
   }
 }
   

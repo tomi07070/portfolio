@@ -220,8 +220,8 @@
 }
 @media(max-width: 426px){
   .div-c{
-    top: 130px;
-    left: 120px;
+    top: 730px;
+    left: -150px;
   }
   .contact-form {
     input[type='text'],
@@ -238,6 +238,13 @@
   .text-zone{
     margin-top: 100px;
     margin-left: -150px;
+    width: 300px;
+  }
+  .p-c{
+    width: 270px;
+  }
+  .contact-form{
+    width: 200px;
   }
 }
   

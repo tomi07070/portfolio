@@ -8,11 +8,12 @@
   position: absolute;
   top: 60px;
   left: 0px;
+  max-height: 9000px;
 }
 .div-p{
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-
+  max-height: 9000px;
 }
 /* Proyects.css */
 
@@ -26,11 +27,16 @@
 .project-image:hover {
   opacity: 1;
 }
-
-@media (min-width: 2000px) {
-  .project-image {
+@media(min-width: 1600px){
+  .project-image{
     width: 700px;
-    height: 610px;
+    height: 780px;
+  }
+}
+@media(min-width: 1025){
+  .project-image{
+    width: 300px;
+    height: 300px;
   }
 }
 @media(max-width: 1066px){
@@ -38,6 +44,13 @@
     grid-template-columns: repeat(2,1fr);
   }
 }
+
+@media(max-height: 900px){
+  .project-image{
+    height: 400px;
+  }
+}
+
 @media(max-width: 1024px){
   .div-p{
     margin-left: 15px;
